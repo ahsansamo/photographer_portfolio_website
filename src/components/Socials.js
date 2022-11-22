@@ -10,17 +10,17 @@ const Socials = () => {
     <div className="hidden xl:flex ml-24">
       <ul className="flex gap-x-4">
         <li>
-          <a href="https://www.facebook.com/ahsan.ali5643/" target="_blank">
+          <a href="https://www.facebook.com/ahsan.ali5643/" target="_blank" rel="noreferrer">
             <ImFacebook />
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/ahsan-ali6/" target="_blank">
+          <a href="https://www.linkedin.com/in/ahsan-ali6/" target="_blank" rel="noreferrer">
             <ImLinkedin />
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/ahsanali5643/" target="_blank">
+          <a href="https://www.instagram.com/ahsanali5643/" target="_blank" rel="noreferrer">
             <ImInstagram />
           </a>
         </li>
