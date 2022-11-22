@@ -36,7 +36,7 @@ const Home = () => {
               Photographer <br /> & Film Maker
             </h1>
             <p className="text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12">
-              Karachi, Pakistan
+              New York, USA
             </p>
             <Link to={"/contact"} className="btn mb-[30px]">
               Hire Me
