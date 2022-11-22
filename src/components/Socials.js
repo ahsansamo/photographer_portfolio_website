@@ -7,7 +7,10 @@ const Socials = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
 
   return (
-    <div className="hidden xl:flex ml-24">
+    <div 
+    onMouseEnter={mouseEnterHandler}
+    onMouseLeave={mouseLeaveHandler}
+    className="hidden xl:flex ml-24">
       <ul className="flex gap-x-4">
         <li>
           <a href="https://www.facebook.com/ahsan.ali5643/" target="_blank" rel="noreferrer">
