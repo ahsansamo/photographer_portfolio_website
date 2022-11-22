@@ -31,8 +31,7 @@
       } else {
         setCursorBG("none");
       }
-      // eslint-disable-next-line react-hooks/exhaustive-deps
-    });
+    }, [mobileViewPortIsActive]);
 
     // cursor variants
     const cursorVariants = {
